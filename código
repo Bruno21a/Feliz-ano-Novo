@@ -1,0 +1,16 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            //declaração de variáveis
+            int num = 10;
+            //entrada de dados
+            while (num > 0)
+            {
+                Console.WriteLine(num);
+                num--;
+            }
+            Console.WriteLine("Feliz Ano Novo!");
+            Console.ReadKey();
+        }
+    }
